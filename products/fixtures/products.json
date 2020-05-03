@@ -1,0 +1,72 @@
+[
+  {
+    "model": "products.Product",
+    "pk": 1,
+    "fields": {
+      "title": "T-Shirt",
+      "slug": "t-shirt",
+      "description": "Blah blah blah I have a t-shirt",
+      "price": "10.00",
+      "image": "products/32179.png",
+      "featured": false,
+      "active": true,
+      "timestamp": "2020-04-11T10:39:46.765Z"
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 2,
+    "fields": {
+      "title": "Hat",
+      "slug": "hat",
+      "description": "Wow a hat",
+      "price": "39.99",
+      "image": "products/Brain_Ooz_Tee_Logo2.jpg",
+      "featured": false,
+      "active": true,
+      "timestamp": "2020-04-11T10:39:46.765Z"
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 3,
+    "fields": {
+      "title": "Computer",
+      "slug": "computer",
+      "description": "Specs \r\nThis pc has a lot of hardware thats all you need to know go fuck your self",
+      "price": "1500.00",
+      "image": "products/1790.jpg",
+      "featured": true,
+      "active": true,
+      "timestamp": "2020-04-11T10:39:46.765Z"
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 4,
+    "fields": {
+      "title": "Cup",
+      "slug": "cup",
+      "description": "This is a cup",
+      "price": "10.00",
+      "image": "products/6321.jpg",
+      "featured": true,
+      "active": true,
+      "timestamp": "2020-04-11T10:39:46.765Z"
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 5,
+    "fields": {
+      "title": "Lorem Ipsum",
+      "slug": "lorem-ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam at lectus. Ut tortor pretium viverra suspendisse potenti nullam. Semper eget duis at tellus at urna condimentum mattis. Id velit ut tortor pretium viverra. Facilisis gravida neque convallis a cras semper. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nec dui nunc mattis enim ut tellus elementum. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Nunc consequat interdum varius sit amet mattis vulputate enim.\r\n\r\nPhasellus egestas tellus rutrum tellus pellentesque. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Dis parturient montes nascetur ridiculus. At erat pellentesque adipiscing commodo. A condimentum vitae sapien pellentesque habitant morbi tristique. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Arcu odio ut sem nulla pharetra diam. Vitae justo eget magna fermentum iaculis eu non diam. Turpis egestas sed tempus urna et pharetra. Nunc scelerisque viverra mauris in aliquam sem fringilla ut. Sed egestas egestas fringilla phasellus faucibus scelerisque. Nunc consequat interdum varius sit amet mattis vulputate enim. Aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod.\r\n\r\nAmet tellus cras adipiscing enim eu. Odio tempor orci dapibus ultrices in. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare. Feugiat vivamus at augue eget. Duis ut diam quam nulla porttitor massa. Egestas sed sed risus pretium quam vulputate dignissim suspendisse in. Ullamcorper eget nulla facilisi etiam dignissim diam. Felis bibendum ut tristique et. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Sed arcu non odio euismod lacinia. Eget aliquet nibh praesent tristique magna sit amet purus. Velit dignissim sodales ut eu sem integer vitae justo eget. Sed blandit libero volutpat sed cras ornare arcu. Mauris cursus mattis molestie a iaculis at erat pellentesque. Mus mauris vitae ultricies leo integer. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et.\r\n\r\nNibh tellus molestie nunc non blandit massa enim nec dui. Tellus rutrum tellus pellentesque eu. Cursus turpis massa tincidunt dui ut ornare lectus sit. Porttitor eget dolor morbi non arcu. Massa ultricies mi quis hendrerit dolor. Quis lectus nulla at volutpat diam. Est velit egestas dui id ornare arcu odio. In mollis nunc sed id semper risus in. Nunc non blandit massa enim nec dui nunc. Sagittis id consectetur purus ut. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Vitae semper quis lectus nulla at volutpat diam. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Egestas sed tempus urna et pharetra. Faucibus purus in massa tempor nec. Dictum sit amet justo donec enim diam vulputate.\r\n\r\nUt placerat orci nulla pellentesque dignissim enim sit. Risus quis varius quam quisque id diam vel quam. Tristique senectus et netus et malesuada fames ac turpis egestas. Et netus et malesuada fames ac turpis egestas sed tempus. Eu nisl nunc mi ipsum faucibus vitae aliquet nec. Faucibus pulvinar elementum integer enim neque volutpat. Cursus euismod quis viverra nibh cras pulvinar mattis nunc. Et tortor consequat id porta nibh. Cursus metus aliquam eleifend mi. Et egestas quis ipsum suspendisse. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Dolor magna eget est lorem ipsum dolor sit amet. Ipsum dolor sit amet consectetur adipiscing. Netus et malesuada fames ac turpis. Amet porttitor eget dolor morbi non arcu risus quis varius. Facilisis sed odio morbi quis. Purus ut faucibus pulvinar elementum integer enim neque. Placerat vestibulum lectus mauris ultrices eros. Lacus vel facilisis volutpat est velit egestas dui id. Fusce ut placerat orci nulla.",
+      "price": "39.99",
+      "image": "",
+      "featured": true,
+      "active": true,
+      "timestamp": "2020-04-11T10:39:46.765Z"
+    }
+  }
+]
