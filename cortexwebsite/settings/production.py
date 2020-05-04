@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    #third party
+    'storages',
+
     # Our apps
     'accounts',
     'addresses',
@@ -159,6 +162,8 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(os.path.dirname(
     BASE_DIR), "static_cdn", "media_root")
+
+from cortexwebsite.aws.conf import *
 
 
 CORS_REPLACE_HTTPS_REFERER = True

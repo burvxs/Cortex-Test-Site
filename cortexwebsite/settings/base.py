@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    #third party
+    'storages',
+
     # Our apps
     'accounts',
     'addresses',
@@ -165,3 +168,7 @@ SECURE_HSTS_INCLUDE_SUBDOMAINS = False
 SECURE_HSTS_SECONDS = None
 SECURE_FRAME_DENY = False
 
+AWS_GROUP_NAME = "Cortex-TestSite-Group"
+AWS_USERNAME = "cortex-test-site-user"
+AWS_ACCESS_KEY_ID = "AKIAUG3HCZGRGZZPFE46"
+AWS_SECRET_ACCESS_KEY = "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"
