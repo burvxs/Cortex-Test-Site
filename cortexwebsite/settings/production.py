@@ -16,17 +16,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = ['.cortex-test-website.com']
-
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = "slurpehediits@gmail.com"
 EMAIL_HOST_PASSWORD = "DerpDerp"
@@ -37,6 +26,17 @@ DEFAULT_FROM_EMAIL = "Cortex test <slurpehediits@gmail.com>"
 MANAGERS = (
     ("Ben Purvis", "slurpehediits@gmail.com")
 )
+
+# Quick-start development settings - unsuitable for production
+# See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
+
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = os.environ.get('SECRET_KEY')
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+
+ALLOWED_HOSTS = ['.cortex-test-website.com']
 
 ADMIN = MANAGERS
 # Application definition
