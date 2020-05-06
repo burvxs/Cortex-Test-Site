@@ -25,7 +25,7 @@ DEFAULT_FROM_EMAIL = "Cortex test <slurpehediits@gmail.com>"
 
 MANAGERS = (
     ("Ben Purvis", "slurpehediits@gmail.com"),
-
+)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
