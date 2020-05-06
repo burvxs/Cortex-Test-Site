@@ -1,10 +1,11 @@
 import datetime
 import os
+import aws.hide_aws_keys as hidden_keys
 
 AWS_GROUP_NAME = "Cortex-TestSite-Group"
 AWS_USERNAME = "cortex-test-site-user"
-AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
-AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID", getattr(hidden_keys, "AWS_ACCESS_KEY_ID", None))
+AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY", getattr(hidden_keys, "AWS_SECRET_ACCESS_KEY", None))
 
 AWS_FILE_EXPIRE = 200
 AWS_PRELOAD_METADATA = True 
