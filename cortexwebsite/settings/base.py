@@ -35,7 +35,7 @@ EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = "Cortex test <slurpehediits@gmail.com>"
 
 MANAGERS = (
-    ("slurpehediits@gmail.com", "Ben Purvis")
+    ("Ben Purvis", "slurpehediits@gmail.com")
 )
 
 ADMIN = MANAGERS
