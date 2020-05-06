@@ -29,7 +29,18 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['.cortex-test-website.com']
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = "slurpehediits@gmail.com"
+EMAIL_HOST_PASSWORD = "DerpDerp"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = "Cortex test <slurpehediits@gmail.com>"
 
+MANAGERS = (
+    ("slurpehediits@gmail.com", "Ben Purvis")
+)
+
+ADMIN = MANAGERS
 # Application definition
 
 INSTALLED_APPS = [
