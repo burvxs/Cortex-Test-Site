@@ -16,15 +16,15 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-EMAIL_HOST = 'smtp.outlook.com'
-EMAIL_HOST_USER = "benny.purvis@hotmail.com"
-EMAIL_HOST_PASSWORD = ""
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = "slurpehediits@gmail.com"
+EMAIL_HOST_PASSWORD = "DerpDerp"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "Cortex test <benny.purvis@hotmail.com>"
+DEFAULT_FROM_EMAIL = "Cortex test <slurpehediits@gmail.com>"
 
 MANAGERS = (
-    ("Ben Purvis", "benny.purvis@hotmail.com")
+    ("Ben Purvis", "slurpehediits@gmail.com")
 )
 
 # Quick-start development settings - unsuitable for production
