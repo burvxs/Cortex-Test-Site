@@ -20,7 +20,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=2rxxdl27nphcp&o(-d6kcbt1a_*8^a1hjisp2zm2sgbhhc)fh'
+SECRET_KEY = os.environ.get('SECRET_KEY')
+
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -57,13 +59,13 @@ INSTALLED_APPS = [
 FORCE_SESSION_TO_ONE = False 
 FORCE_INACTIVE_USER_ENDSESSION = False
 
-MAILCHIMP_API_KEY = "76635889279992c607f10db93aca62ef-us8"
+MAILCHIMP_API_KEY = os.environ.get("MAILCHIMP_API_KEY")
 MAILCHIMP_DATA_CENTER = "us8"
-MAILCHIMP_EMAIL_LIST_ID = "0e98cdb814"
+MAILCHIMP_EMAIL_LIST_ID = os.environ.get("MAILCHIMP_EMAIL_LIST_ID")
 
 import stripe
-STRIPE_SECRET_KEY = "sk_test_4EevNsKfrdkub3zMteXQfscN00s6DlhOFh"
-STRIPE_PUB_KEY = 'pk_test_i9Lm2yNIhUthrmUtnWCmoJH100BNp1SsOz'
+STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY", "sk_test_4EevNsKfrdkub3zMteXQfscN00s6DlhOFh")
+STRIPE_PUB_KEY = os.environ.get("STRIPE_PUB_KEY", 'pk_test_i9Lm2yNIhUthrmUtnWCmoJH100BNp1SsOz')
 
 AUTH_USER_MODEL = 'accounts.User'
 
