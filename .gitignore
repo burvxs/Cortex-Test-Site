@@ -26,7 +26,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-cortexwebsite/aws/hide_aws_keys.py
+cortexwebsite/aws/keys.txt
 # C extensions
 *.so
 
