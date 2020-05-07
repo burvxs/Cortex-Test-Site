@@ -1,5 +1,7 @@
 access_key = None
 secret_key = None
+AWS_ACCESS_KEY_ID = None
+AWS_SECRET_ACCESS_KEY = None
 try:
     key_file = open("cortexwebsite/aws/keys.txt", "r")
     lines = key_file.read().split("\n")
