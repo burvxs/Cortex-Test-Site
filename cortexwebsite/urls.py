@@ -19,7 +19,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, re_path, include
 from django.contrib.auth.views import LogoutView
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, RedirectView
 
 from billing.views import payment_method_view, payment_method_createview
 from accounts.views import LoginView, RegisterView, guest_register_view
@@ -34,6 +34,7 @@ urlpatterns = [
                              namespace="products")),
     path('', home_page, name='homepage'),
     path('about/', about_page, name='about'),
+    path("accounts/", include('accounts.urls', namespace='accounts')),
     path('contact/', contact_page, name='contact'),
     path('logout/', LogoutView.as_view(), name='logout'),
     path('login/', LoginView.as_view(), name='login'),

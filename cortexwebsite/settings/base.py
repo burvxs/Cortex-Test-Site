@@ -78,6 +78,10 @@ STRIPE_PUB_KEY = 'pk_test_i9Lm2yNIhUthrmUtnWCmoJH100BNp1SsOz'
 
 AUTH_USER_MODEL = 'accounts.User'
 
+LOGIN_URL = "/login/"
+LOGIN_URL_REDIRECT = "/"
+LOGOUT_URL = "/logout/"
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
