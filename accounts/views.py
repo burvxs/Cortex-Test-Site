@@ -11,13 +11,9 @@ from .models import GuestEmail
 from .forms import LoginForm, RegisterForm, GuestForm
 from .signals import user_logged_in
 
-@login_required
-def account_home_view(request):
-    return render(request, "accounts/home.html")
-
 class AccountHomeView(LoginRequiredMixin, DetailView):
     template_name = "accounts/home.html"
-    def get_object(self):
+    def get_object(self): 
         return self.request.user
 
 def guest_register_view(request):

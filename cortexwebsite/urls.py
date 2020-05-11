@@ -34,7 +34,8 @@ urlpatterns = [
                              namespace="products")),
     path('', home_page, name='homepage'),
     path('about/', about_page, name='about'),
-    path("accounts/", include('accounts.urls', namespace='accounts')),
+    path("account/", include('accounts.urls', namespace='accounts')),
+    path("accounts/", RedirectView.as_view(url='/account')),
     path('contact/', contact_page, name='contact'),
     path('logout/', LogoutView.as_view(), name='logout'),
     path('login/', LoginView.as_view(), name='login'),
@@ -50,6 +51,7 @@ urlpatterns = [
     path('billing/payment-method', payment_method_view, name='billing-payment-method'),
     path('billing/payment-method/create/', payment_method_createview, name='billing-payment-method-endpoint'),
     path('settings/email/', MarketingPreferenceUpdateView.as_view(), name='marketing-pref'),
+    path("settings/", RedirectView.as_view(url='/account')),
     path('webhooks/mailchimp/', MailchimpWebhookView.as_view(), name='webhooks-mailchimp'),
     path('bootstrap/', TemplateView.as_view(template_name='bootstrap/example.html'))
 ]
