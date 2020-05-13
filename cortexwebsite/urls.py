@@ -35,6 +35,7 @@ urlpatterns = [
     path('', home_page, name='homepage'),
     path('about/', about_page, name='about'),
     path("account/", include('accounts.urls', namespace='accounts')),
+    path("accounts/", include('accounts.passwords.urls')),
     path("accounts/", RedirectView.as_view(url='/account')),
     path('contact/', contact_page, name='contact'),
     path('logout/', LogoutView.as_view(), name='logout'),
